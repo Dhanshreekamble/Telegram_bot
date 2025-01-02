@@ -1,0 +1,5 @@
+# Replace this:
+MessageHandler(filters.text & ~filters.command, industry)
+
+# With this:
+MessageHandler(filters.TEXT & ~filters.COMMAND, industry)
